@@ -3,9 +3,9 @@ input{
     border-bottom: 1px solid rgb(23, 11, 11);
     outline: none;
     background-color: transparent;
-    color: rgb(55, 44, 44);
+    color: rgb(46, 39, 39);
     backdrop-filter: blur(40px);
 }
 ::-webkit-input-placeholder{
-    color: rgb(99, 99, 45);
+    color: rgb(23, 23, 16);
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,54 +12,77 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="overflow-hidden" style="background-image: url(images/2.jpg); background-position: center; background-size: cover;">
-    
+
+<body class="overflow-hidden"
+    style="background-image: url(images/8.jpg); background-position: center; background-size: cover;">
+
     <section style="height:100vh;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 d-flex align-items-center justify-content-center" style="height: 100vh;">
                     <div class="col-lg-8">
-                        <div class="login-form rounded-4 p-3" style="backdrop-filter: blur(30px);">
+                        <div class="login-form rounded-4 p-3 border js-tilt" style="backdrop-filter: blur(30px);" data-tilt>
                             <form action="https://drive.google.com/drive/folders/17smys3n2SGX_8bzcn0bI615GcZnvsKfF">
                                 <div class="row row-gap-3">
                                     <div class="col-lg-6">
                                         <div class="name">
-                                            <i class="fa-solid fa-user px-2"></i><label for="fname" class="fw-bold mb-1">Name:-</label>
-                                            <input type="text" id="fname" placeholder="Enter Your Name" class="w-100 py-2 ps-3 rounded-5" autocomplete="off" onkeyup="return ferror1()">
-                                            <span class="ps-3 d-flex align-items-center fw-bold" id="name-f" style="height: 20px;"></span>
+                                            <i class="fa-solid fa-user px-2"></i><label for="fname"
+                                                class="fw-bold mb-1">Name:-</label>
+                                            <input type="text" id="fname" placeholder="Enter Your Name"
+                                                class="w-100 py-2 ps-3 rounded-3" autocomplete="off"
+                                                onkeyup="return ferror1()">
+                                            <span class="ps-3 d-flex align-items-center fw-bold" id="name-f"
+                                                style="height: 20px;"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="m-number">
-                                            <i class="fa-solid fa-phone px-2"></i><label for="fname" class="fw-bold  mb-1">Mobile Number:-</label>
-                                            <input type="text" id="m-number" placeholder="Enter Your Mobile number" class="w-100 py-2 ps-3 rounded-5" autocomplete="off" onkeyup="return merror1()">
-                                            <span class="ps-3 d-flex align-items-center fw-bold" id="mnumber-f" style="height: 20px;"></span>
+                                            <i class="fa-solid fa-phone px-2"></i><label for="fname"
+                                                class="fw-bold  mb-1">Mobile Number:-</label>
+                                            <input type="text" id="m-number" placeholder="Enter Your Mobile number"
+                                                class="w-100 py-2 ps-3 rounded-3" autocomplete="off"
+                                                onkeyup="return merror1()">
+                                            <span class="ps-3 d-flex align-items-center fw-bold" id="mnumber-f"
+                                                style="height: 20px;"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="email">
-                                            <i class="fa-solid fa-envelope px-2"></i><label for="fname" class="fw-bold  mb-1">Email:-</label>
-                                            <input type="text" id="email" placeholder="Enter Your Email" class="w-100 py-2 ps-3 rounded-5" autocomplete="off" onkeyup="return eerror1()">
-                                            <span class="ps-3 d-flex align-items-center fw-bold" id="email-f" style="height: 20px;"></span>
+                                            <i class="fa-solid fa-envelope px-2"></i><label for="fname"
+                                                class="fw-bold  mb-1">Email:-</label>
+                                            <input type="text" id="email" placeholder="Enter Your Email"
+                                                class="w-100 py-2 ps-3 rounded-3" autocomplete="off"
+                                                onkeyup="return eerror1()">
+                                            <span class="ps-3 d-flex align-items-center fw-bold" id="email-f"
+                                                style="height: 20px;"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="psw">
-                                            <i class="fa-solid fa-lock px-2"></i><label for="fname" class="fw-bold  mb-1">Password:-</label>
-                                            <input type="password" id="password" placeholder="Enter Your Password" class="w-100 py-2 ps-3 rounded-5" autocomplete="off" onkeyup="return perror1()">
-                                            <span class="ps-3 d-flex align-items-center fw-bold" id="psw-f" style="height: 20px;"></span>
+                                            <i class="fa-solid fa-lock px-2"></i><label for="fname"
+                                                class="fw-bold  mb-1">Password:-</label>
+                                            <input type="password" id="password" placeholder="Enter Your Password"
+                                                class="w-100 py-2 ps-3 rounded-3" autocomplete="off"
+                                                onkeyup="return perror1()">
+                                            <span class="ps-3 d-flex align-items-center fw-bold" id="psw-f"
+                                                style="height: 20px;"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 d-flex align-items-center justify-content-center">
                                         <div class="c-psw">
-                                            <i class="fa-solid fa-square-check px-2"></i><label for="fname" class="fw-bold  mb-1">Conform Password:-</label>
-                                            <input type="password" id="cpassword" placeholder="Enter Your conform Password" class="w-100 py-2 ps-3 rounded-5" autocomplete="off" onkeyup="return cperror1()">
-                                            <span class="ps-3 d-flex align-items-center fw-bold" id="cpsw-f" style="height: 20px;"></span>
+                                            <i class="fa-solid fa-square-check px-2"></i><label for="fname"
+                                                class="fw-bold  mb-1">Conform Password:-</label>
+                                            <input type="password" id="cpassword"
+                                                placeholder="Enter Your conform Password"
+                                                class="w-100 py-2 ps-3 rounded-3" autocomplete="off"
+                                                onkeyup="return cperror1()">
+                                            <span class="ps-3 d-flex align-items-center fw-bold" id="cpsw-f"
+                                                style="height: 20px;"></span>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="submit text-center mt-4">
-                                            <a href="#" id="submit" class="btn btn-primary rounded-5">Submit</a>
+                                            <a href="#" id="submit" class="btn btn-success shadow rounded-5">Submit</a>
                                         </div>
                                     </div>
                                 </div>

@@ -60,7 +60,7 @@ function eerror1() { //mail validation
     }
 }
 function perror1() { //Password validation
-    if (psw.value < 1) {
+    if (psw.value < 1) {zz
         perror.innerHTML = "Enter your corect Password"; perror.style.color = "red";
     } else {
         (/^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{6,}$/.test(psw.value)) ? perror.innerHTML = "valid Password" : perror.innerHTML = "invalid Password";
